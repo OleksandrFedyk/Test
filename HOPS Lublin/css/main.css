@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #eaeaea;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+.header {
+  background-image: url(../images/350467464_147324881668435_6233645183462234436_n.jpg);
+  background-size: cover; /* Розтягнути зображення, щоб воно повністю покривало фон */
+  background-position: center; /* Вирівнювання зображення по центру */
+  background-repeat: no-repeat; /* Заборонити повторення зображення */
+  height: 740px;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.header_navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0px;
+}
+
+.navbar_navSection {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.navSection_navButtons {
+    display: flex;   
+}
+.navSection_socialMedias {
+    display: flex;
+    gap: 15px;
+}
+
+.navButtons_item-link {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navButtons_item {
+    padding: 0 22px;
+
+}
+
+.navButtons_item:hover{
+    transition: 2s;
+    text-decoration: underline;
+}
+
+.hotNewsSection_title {
+  text-align: left;
+  font-size: 48px;
+  padding: 30px 0px;
+}
+
+.hotNewsSection_items {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+
+.hotNewsSection_divItem {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: solid 0px;
+  border-radius: 8px;
+}
+
+.hotnewsSection_divItem-Image {
+  max-width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.divItem_content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: stretch;
+}
+
+.divItem_date {
+  font-weight: bolder;
+  margin-bottom: 4px;
+}
+
+.divItem_title {
+  margin: 4px 0px 16px 0px;
+  font-size: 21px;
+}
+
+.standing_divItem__title {
+  margin: 15px 0px;
+}
+
+
+
+
+.divItem_divText-text {
+  word-wrap: break-word;
+  width: 100%;
+  text-align: left;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.standLead_items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.standings_divItem {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.divItem_stendBar {
+  padding: 0px 10px;
+  display: flex;
+  border-bottom: solid 1px;
+  border-left: solid 1px;
+  border-right: solid 1px;
+  justify-content: space-between;
+}
+
+.divItem_stendTitleBar {
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+}
+
+.divItem_teamName {
+  text-align: left;
+  border-right: solid 1px;
+  padding: 10px 0px;
+  width: 60%;
+}
+
+.wins_winProcent {
+  font-size: 18px;
+}
+
+.teamName_name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.lose_loseNumb {
+  font-size: 18px;
+}
+
+.wins_winsNumb {
+  font-size: 18px;
+}
+
+.divItem_wins, .divItem_lose, .divItem_winProcent {
+  padding: 10px 0px;
+}
+
+.divItem_winProcent {
+  padding-left: 15px;
+}
+
+.standLead_items {
+  padding: 35px 0px;
+}
+
+.divItem_stendBar__playerScore {
+  display: flex;
+  justify-content: space-between;
+  height: 15%;
+}
+
+.stendBar_stendName, .stendBar_playerPosition {
+  margin: 5px 0px;
+}
+
+.divItem_stendbar__left {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.divItem_stendbar__right {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
