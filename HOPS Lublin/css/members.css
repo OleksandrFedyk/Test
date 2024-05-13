@@ -50,6 +50,7 @@
 }
 footer {
     margin-top: 50px ;
+    padding: 15px 0px;
     background-color: black;
     height: fit-content;
     color: white;
@@ -58,15 +59,32 @@ footer {
 .footer_flex {
     display: flex;
     justify-content: space-around;
-    align-items:start;
     margin: 0;
 }
 .img_footer {
     width: 120px;
     height: 100%;
-    padding-top: 30px;
 }
 h3 {
     font-size: 18px;
     font-weight: normal;
+}
+
+.footer_moreInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contacts_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.social_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
