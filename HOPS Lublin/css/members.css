@@ -65,13 +65,10 @@ footer {
     color: white;
     width: 100%;
 }
-.footer_container {
+.footer_flex {
     display: flex;
     justify-content: space-around;
-    margin: 0;
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 0px 15px;
+    align-items: center;
 }
 .img_footer {
     width: 120px;
@@ -83,4 +80,11 @@ h3 {
 }
 .hover:hover {
     transform: translate(-1%, -1%) scale(1.03);
+}
+
+.social_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
