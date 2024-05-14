@@ -143,6 +143,7 @@ ul {
 .standLead_items {
   display: flex;
   justify-content: space-around;
+  padding: 35px 0px;
 }
 
 .standings_divItem {
@@ -200,8 +201,11 @@ ul {
   padding-left: 15px;
 }
 
-.standLead_items {
-  padding: 35px 0px;
+.standings_divItem_playerScore {
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .divItem_stendBar__playerScore {

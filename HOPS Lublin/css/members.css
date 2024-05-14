@@ -59,6 +59,7 @@
 }
 footer {
     margin-top: 50px ;
+    padding: 15px 0px;
     background-color: black;
     height: fit-content;
     color: white;
@@ -67,7 +68,6 @@ footer {
 .footer_container {
     display: flex;
     justify-content: space-around;
-    align-items:start;
     margin: 0;
     max-width: 80%;
     margin: 0 auto;
@@ -76,7 +76,6 @@ footer {
 .img_footer {
     width: 120px;
     height: 100%;
-    padding-top: 30px;
 }
 h3 {
     font-size: 18px;
