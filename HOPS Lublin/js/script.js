@@ -26,3 +26,8 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+function toggleHiddenText() {
+  var hiddenText = document.querySelector('.hidden_text');
+  hiddenText.style.display = (hiddenText.style.display === 'none' ? 'block' : 'none');
+}
