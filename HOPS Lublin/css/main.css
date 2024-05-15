@@ -47,6 +47,7 @@ ul {
     display: flex;
     justify-content: space-around;
     padding: 5px 0px;
+
 }
 
 .navbar_navSection {
@@ -138,6 +139,10 @@ ul {
   text-align: left;
   box-sizing: border-box;
   font-size: 16px;
+}
+
+.standLeadSection {
+  padding-bottom: 50px;
 }
 
 .standLead_items {
