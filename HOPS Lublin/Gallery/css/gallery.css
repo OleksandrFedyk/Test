@@ -1,24 +1,13 @@
-.gallery_title {
-    width: fit-content;
-}
-.gallery_title:hover {
-    transition: 2s;
-    text-decoration: underline; 
-    cursor: pointer;
-}
+
 .season_content {
-    padding: 20px 0px 0px 50px; 
-     
+    display: flex;
+    justify-content: space-evenly;
+  
+    padding-bottom: 20px;
 }
-.season_content li {
-    float: none;
-    padding: 0px 0px 25px 0px;
+.season_content img {
+    width: 485px;
+    height: 318px;
 }
-.hidden_text {
-        display: none;
-        position: relative;
-         /* Встановлюємо відступ, з якого відображатиметься текст */
-        left: 0;
-        z-index: 1; /* Щоб текст показувався поверх іншого контенту */
-      
-}
+
+
