@@ -37,7 +37,7 @@
 }
 .window_players_pos {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
     padding-bottom: 70px;
 }
 .window_players_pos div {
