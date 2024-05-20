@@ -85,11 +85,12 @@ h3 {
 }
 
 .social_block {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
     align-items: center;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
 }
+
 
 .footer_moreInfo {
     display: flex;

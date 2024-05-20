@@ -3,6 +3,10 @@ body {
     padding: 0;
     font-family: 'Inter', sans-serif;
     background-color: #eaeaea;
+
+}
+header {
+  text-transform: uppercase;
 }
 
 a {
@@ -76,11 +80,6 @@ ul {
     padding: 0 10px;
    
 
-}
-
-.navButtons_item:hover{
-    transition: 2s;
-    text-decoration: underline;
 }
 
 .hotNewsSection_title {
@@ -235,4 +234,21 @@ ul {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
+}
+.toTheTopButt {
+  
+  display: none;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 99;
+  border: 1px solid green;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+}
+.toTheTopButt:hover {
+  background-color: #eaeaea;
 }
