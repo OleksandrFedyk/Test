@@ -60,7 +60,9 @@ ul {
     align-items: center;
     justify-content: space-evenly;
 }
-
+.filed a:hover {
+  color: rgb(124, 42, 42);
+}
 
 .navSection_navButtons {
     display: flex;   
@@ -80,6 +82,9 @@ ul {
     padding: 0 10px;
    
 
+}
+.navButtons_item a:hover {
+  color: rgb(47, 255, 54);
 }
 
 .hotNewsSection_title {
