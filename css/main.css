@@ -238,6 +238,7 @@ ul {
 
 .divItem_stendbar__right {
   display: flex;
+  text-align: center;
   justify-content: space-evenly;
   flex-direction: column;
 }
